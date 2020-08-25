@@ -1,0 +1,168 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+img{
+    height: 50px;
+    width: 150px;
+}
+
+nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1d809f;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+nav ul{
+    list-style: none; 
+    
+    
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body{
+    background-image: url('../img/pattern.jpg');
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+div{
+    margin-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-justify: auto;
+    
+}
+
+div h3 a{
+    text-decoration: none;
+    
+}
+
+div p{
+    margin-top: 10px;
+}
+
+footer{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    height: 50px;
+    background-color: #1d809f;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+   
+    
+}
+
+/* about */
+
+.container-about{
+    background-color: #ffffff;
+    height: 300px;
+    width: cover;
+    
+}
+
+#about {
+    padding-top: 30px;
+    margin-top: 50px;
+    
+}
+
+#about h4{
+    padding-top: 20px;
+    justify-items: center;
+    
+}
+
+.link-button{
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #1d809f;
+    border-radius: 0.6em;
+    color: #1d809f;
+    cursor: pointer;
+    display: inline-block;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    
+}
+
+.link-button:hover, .link-button:focus {
+    color: #fff;
+    outline: 0;
+  }
+
+.link-button:hover{
+    box-shadow: 0 0 40px 40px #1d809f inset;
+}
+
+/* contact */
+
+.container-contact{
+    background-color: #ffffff;
+    height: 200px;
+    width: cover;
+}
+
+.contact h4{
+    padding-top: 30px;
+    justify-items: center;
+    
+}
+
+fieldset{
+    background-color: #fff;
+    height: 200px;
+    width: cover;
+    
+
+}
+
+.container-pesan{
+    margin-top: 30px;
+}
+
+.pesan{
+    margin-top: 150px;
+}
